@@ -27,4 +27,6 @@ INNER JOIN module_view mv ON m.id = mv.module_id
 INNER JOIN view v ON mv.view_id = v.id
 WHERE u.state = true;
 ```
-#Resultado
+# Resultado
+![Completo](img/Completa.png)
+![Filtrada](img/Filtrada.png)
