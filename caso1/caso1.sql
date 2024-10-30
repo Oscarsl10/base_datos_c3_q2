@@ -1,9 +1,9 @@
-
 SELECT 
 	p.first_name,
     r.name,
     m.name AS modulo,
-    v.name AS vista
+    v.name AS vista,
+    r.name AS rol
     
 FROM person p
 INNER JOIN user u ON p.id = u.person_id
